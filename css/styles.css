@@ -1,17 +1,40 @@
 /* Los estilos se aplican a todo el documento */
 body {
-    background: linear-gradient(135deg, rgb(56, 56, 206), rgb(255, 112, 112));
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(99, 0, 0, 0.5)), url('../asset');
+    background: linear-gradient(135deg, rgb(147, 243, 152), rgb(255, 112, 224));
+    background-image: linear-gradient(135deg, rgba(240, 147, 209, 0.5), rgba(123, 235, 216, 0.5)), url('../assets/imagenes/FONDO.png');
 }
 
 .about {
-    background: linear-gradient(color yellow);
+      background: rgb(180, 168, 226);
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    border-style: solid;
+    border: 2px solid #333;
+    border-radius: 10px;
 }
 
 .social-icon {
     width: 48px;
+}
+
+.perfil {
+    width: 200px;
+}
+img {
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 30, 182, 0.8);
+    border-top: 2px solid #ffffff;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: bold;
 }
