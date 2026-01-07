@@ -4,7 +4,7 @@
 body {
     background: linear-gradient(135deg, rgb(255, 232, 254));
     color: #b46395;
-    
+
 }
 
 .box {
@@ -16,8 +16,8 @@ body {
     padding: 40px;
     border: 2px solid #ffb3e2;
     border-radius: 5px;
-    box-shadow: 0 10px 30px rgb(0,0,0,0,0.5);
-    
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0, 0.5);
+
 }
 
 .social-icon {
@@ -27,6 +27,7 @@ body {
 .perfil {
     width: 200px;
 }
+
 img {
     border-radius: 15px;
 }
@@ -38,13 +39,15 @@ footer {
     background-color: rgb(255, 255, 255);
     border-top: 2px solid #ffffff;
 }
+
 header {
     text-align: center;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     border-top: 2px solid #ffffff;
-    
+
 }
+
 header h1 {
 
     font-size: 50px;
@@ -52,12 +55,18 @@ header h1 {
     font-weight: bold;
     color: #9b3972;
     font-family: "PT Serif", serif;
-    
+
 }
 
 .redess {
-display: flex;
-flex-direction: row;
-gap: 30px;
-margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.iconos {
+    padding-left: 0;
+    margin-bottom: 0;
 }
